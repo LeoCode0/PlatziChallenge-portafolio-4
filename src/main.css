@@ -1,0 +1,63 @@
+:root{
+  --bg-color: #121f3d;
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html{
+  font-size: 62.5%;
+}
+
+body{
+  background-color: var(--bg-color);
+  font-family: 'Roboto', sans-serif;
+  color: white;
+}
+
+header{
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.header--list{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  list-style: none;
+  padding: 10px;
+}
+
+.header--button{
+  width: 200px;
+  height: 50px;
+  background: transparent;
+  border: 1px solid gray;
+  border-radius: 10px;
+  color: white;
+}
+
+main{
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(25%);
+}
+
+.hero{
+  text-align: center;
+  width: 100%;
+}
+
+.hero--title{
+  font-size: 2.6rem;
+}
+
+.hero--time{
+  font-size: 2rem;
+}
+
