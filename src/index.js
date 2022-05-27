@@ -17,7 +17,7 @@ function startChronometer() {
 }
 
 function formatValue(value) {
-  return ("0" + value).split(-2);
+  return ("0" + value).slice(-2);
 }
 
 function stopChronometer() {
