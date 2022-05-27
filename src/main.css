@@ -24,6 +24,10 @@ header{
   width: 100%;
 }
 
+button:hover{
+  cursor: pointer;
+}
+
 .header--list{
   display: flex;
   width: 100%;

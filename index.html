@@ -18,13 +18,16 @@
     <nav class="header--nav">
       <ul class="header--list">
         <li>
-          <button class="button header--button " title="Chronometer"><i class="fa-solid fa-clock"></i></button>
+          <button class="button header--button" id="chronometer-button" onclick="executeChronometer()"
+            title="Chronometer"><i class="fa-solid fa-clock"></i></button>
         </li>
         <li>
-          <button class="button header--button " title="Timer"><i class="fa-solid fa-hourglass"></i></button>
+          <button class="button header--button " id="timer-button" title="Timer" onclick="executeTimer()"><i
+              class="fa-solid fa-hourglass"></i></button>
         </li>
         <li>
-          <button class="button header--button " title="Alarms"><i class="fa-solid fa-bell"></i></button>
+          <button class="button header--button " title="Alarms" onclick="executePomodoro()"><i
+              class="fa-solid fa-bell"></i></button>
         </li>
       </ul>
     </nav>
